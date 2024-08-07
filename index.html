@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charades Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Charades</h1>
+
+    <div class="team-config">
+      <div class="team">
+        <h2>Team A</h2>
+        <label for="team-a-name">Name:</label>
+        <input type="text" id="team-a-name" placeholder="Enter Team A Name">
+        <div class="word-addition">
+          <input type="text" id="team-a-new-word" placeholder="Add word for Team A">
+          <button id="team-a-add-word">Add Word</button>
+        </div>
+      </div>
+      <div class="team">
+        <h2>Team B</h2>
+        <label for="team-b-name">Name:</label>
+        <input type="text" id="team-b-name" placeholder="Enter Team B Name">
+        <div class="word-addition">
+          <input type="text" id="team-b-new-word" placeholder="Add word for Team B">
+          <button id="team-b-add-word">Add Word</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard">Hard</option>
+      </select>
+    </div>
+
+    <div id="word-container">
+      <p id="word">Press "Start" to begin!</p>
+    </div>
+
+    <div class="time" id="timer-container">
+      <p id="timer">02:00</p>
+    </div>
+
+    <div class="actions">
+      <button id="start-button">Start</button>
+      <button id="next-button" disabled>Next Word</button>
+      <button id="stop-button" disabled>Stop</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

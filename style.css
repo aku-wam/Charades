@@ -1,0 +1,133 @@
+body {
+    font-family:cursive ;
+    background-color: #ebe3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    background: url(bg1.jfif);
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 100vh;;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    padding-top: 13%;
+  }
+  
+  .team-config {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 0;
+    width: 100%;
+    padding:0;
+  }
+  
+  .team {
+    flex: 1;
+    width: 30%;
+  }
+  
+  .team h2 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+  
+  .word-addition {
+    margin-top: 0px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    padding-left: 25px;
+  }
+  
+  #word-container {
+    margin: 20px 0;
+  }
+  
+  #word {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 10%;
+  }
+  
+  #timer-container {
+    margin: 20px 0;
+  }
+  
+  #timer {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f0f2f5;
+    color: rgb(14, 13, 13);
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: solid 1px #333a42;
+    justify-content: space-between;
+  }
+  
+  button:disabled {
+    background-color: #f0f2f5;
+    cursor: not-allowed;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #885874;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #6d4e15;
+    border-radius: 5px;
+    background-color: #f1c9e1;
+    margin: 5px 0;
+    width: 60%;
+  }
+
+.container .time p{
+ border: #333a42 1px solid;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ margin-left: auto;
+ margin-right: auto;
+ width: 20%;
+ background: #f1c9e1;
+}  
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+margin-right: 1rem;
+padding-left: 50px;
+}
+
+.actions button {
+  width: 200px;
+}
